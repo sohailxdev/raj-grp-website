@@ -4,18 +4,17 @@ import Navbar from "./NavBar";
 import Footer from "./Footer";
 
 const Layout = () => {
-  const [showMenu, setShowMenu] = useState(true);
+  const [showMenu, setShowMenu] = useState<boolean>(true);
 
   return (
     <div className="h-screen flex flex-col">
       <Navbar setShowMenu={setShowMenu} showMenu={showMenu} />
-      <div className="flex-grow overflow-auto bg-zinc-100 dark:bg-black grid grid-cols-14">
+      <div className="flex-grow bg-zinc-100 dark:bg-black grid ">
         <div
-          className={`flex-grow overflow-auto col-span-full ${
-            showMenu ? "lg:col-span-12" : "col-span-full"
-          }`}
+          className={`flex-grow col-span-full 
+            }`}
         >
-          <div className="p-2 ">
+          <div className="">
             <Outlet />
           </div>
         </div>

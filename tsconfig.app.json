@@ -27,5 +27,5 @@
       ]
     }
   },
-  "include": ["src", "src/features/containerTrackingReport/ContainerTrackingReportById.tsx"]
+  "include": ["src", "src/features/containerTrackingReport/ContainerTrackingReportById.tsx", "public/Images/carousel.tsx"]
 }
