@@ -2,12 +2,14 @@ import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } 
 import Layout from "./components/layout/Layout";
 import Main from "./pages/Main";
 import LeadingTeam from "./pages/LeadingTeam";
+import CompanyOverview from "./pages/CompanyOverview";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path='/' element={<Layout />} >
       <Route path='' element={<Main />} />
       <Route path='/leadership-team' element={<LeadingTeam />} />
+      <Route path='/company-overview' element={<CompanyOverview />} />
     </Route>
   )
 );

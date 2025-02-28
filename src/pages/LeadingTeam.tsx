@@ -82,7 +82,7 @@ const teamMembers = [
 const LeadingTeam = () => {
     return (
         <>
-            <img className="w-screen" src="Images/L.png" alt="" />
+            <img className="w-screen" src="Images/BannerLeadership.png" alt="Img Not Found" />
             <div className="border-2 py-24 space-y-20 bg-white">
                 <div className="lg:px-32 max-sm:justify-self-center">
                     <h1 className="text-4xl font-medium">Leadership Team</h1>
